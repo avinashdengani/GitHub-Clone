@@ -1,0 +1,46 @@
+/* Color Variables */
+:root{
+    --primary-background-color: #2a3139;
+    --navbar-color: #24292f;
+    --white-color: #FFF;
+    --glow-white-color: #FCFBF2;
+    --button-green-color: #39e600;
+    --button-blue-color: #0066cc;
+    --black-color: #111;   
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    background: var(--primary-background-color);
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+}
+textarea{
+    resize: none;
+}
+.text-center{
+    text-align: center;
+}
+.bg-primary{
+    background: var(--primary-background-color);
+}
+.bg-white{
+    background: var(--white-color);
+}
+.bg-navbar{
+    background: var(--navbar-color);
+}
+.container{
+    width: 1204px;
+    margin-left: 171px;
+}
+
