@@ -4,6 +4,7 @@
     --navbar-color: #24292f;
     --white-color: #FFF;
     --glow-white-color: #FCFBF2;
+    --text-white-color: #8c8c8c;
     --button-green-color: #39e600;
     --button-blue-color: #0066cc;
     --black-color: #111;   
@@ -21,6 +22,10 @@ ul{
     list-style: none;
 }
 
+p,div,button,h1,h2,h3,h4,h5,h6{
+    padding: 0;
+    margin: 0;
+}
 img{
     max-width: 100%;
 }
@@ -43,6 +48,43 @@ textarea{
     width: 1204px;
     margin-left: 171px;
 }
+.row{
+    padding: 50px 0px;
+    margin: 50px 0px;
+    display: flex;
+}
+.col-1{
+    width:200.6666666666667px;
+    padding: 20px;
+    margin: 20px;
+}
+.col-2{
+    width: 401.3333333333333px;
+    padding: 20px;
+    margin: 20px;
+}
+.col-3{
+    width: 602px;
+    padding: 20px;
+    margin: 20px;
+}
+.col-4{
+    width: 802.6666666666667‬px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.col-5{
+    width: 1,003.333333333333px;
+    padding: 20px;
+    margin: 20px;
+}
+.col-6{
+    width: 1204px;
+    padding: 20px;
+    margin: 20px;
+}
+
 .navbar{
     position: sticky;
     color: #FFF;
@@ -85,4 +127,63 @@ textarea{
     transform: scale(1.15);
     transition: all 0.25s ease-in-out;
     text-shadow: 2px 2px 4px var(--black-color);
+}
+#heading1{
+    color: var(--white-color);
+    font-size: 70px;
+    font-weight: 300;
+    text-shadow: 2px 2px 4px var(--black-color);
+}
+.introduction{
+    padding: 40px;
+    margin: 20px 50px 20px 0px;
+    padding-left:0;
+    box-sizing: border-box;
+}
+
+.introduction-text{
+    color: var(--text-white-color);
+    font-size: 28px;
+}
+.introduction-text span{
+    color: var(--white-color);
+}
+
+.form{
+    margin: 0 0 0 80px;
+    border: 4px solid var(--black-color);
+    border-radius: 15px;
+}
+.input-label{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.input{
+    padding: 10px;
+    border-radius: 7px;
+}
+.label{
+    padding: 5px 0 10px 0;
+}
+.button{
+    width: 385px;
+    margin-left: 10px;
+    padding: 10px;
+    background: var(--button-green-color);
+    color: var(--white-color);
+    font-weight: 900;
+    border: none;
+    border-radius: 7px;
+}
+.button:hover{
+    cursor: pointer;
+    background: #66ff66;
+    transform: scale(1.05);
+}
+.terms-and-conditions{
+    padding: 10px;
+}
+.terms-and-conditions p a{
+    color: var(--button-blue-color);
 }
