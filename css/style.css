@@ -43,4 +43,46 @@ textarea{
     width: 1204px;
     margin-left: 171px;
 }
+.navbar{
+    position: sticky;
+    color: #FFF;
+    top: 0;
+}
+.navbar .navbar-list{
+    margin: 0;
+    margin-left: -10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.navbar .navbar-list .navbar-items{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.navbar .navbar-items a{
+    color: var(--white-color);
+    font-weight: bolder;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.navbar  .navbar-logo{
+    margin-top: 15px;
+    width: 35px;
+    height: 35px;
+}
+.navbar .navbar-search{
+    width: 250px;
+    border: solid 1px  var(--black-color);
+    margin: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    color: var(--white-color);
+}
 
+.navbar .navbar-list a:hover{
+    color: var(--glow-white-color);
+}
+.navbar .navbar-list ul li:hover{
+    transform: scale(1.15);
+    transition: all 0.25s ease-in-out;
+    text-shadow: 2px 2px 4px var(--black-color);
+}
