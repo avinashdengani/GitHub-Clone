@@ -424,6 +424,7 @@ textarea{
 }
 @media(max-width:576px){
     .container{
+        align-self: center;
         margin: auto;
         width: 300px;
     }
@@ -447,6 +448,8 @@ textarea{
         flex-direction: column;
     }
     .introduction{
+        padding: 0;
+        margin: 0;
         margin: auto;
         width: 300px;
     }
@@ -484,7 +487,7 @@ textarea{
     #Sign-Up-Button-introduction{
         align-self: center;
         width: 250px;
-        margin: 20px 0 ;
+        margin: 20px;
         display: block;
     }
     .teams{
